@@ -1,6 +1,6 @@
 # alt-q.fish
 
-Plugin for [fisherman][] that adds two key bindings:
+Plugin for [Fisher][] that adds two key bindings:
 
 * **alt-q**: Pushes the current command-line onto a private stack and clears the
   command-line. The next time the prompt is displayed, if there's anything on
@@ -9,4 +9,4 @@ Plugin for [fisherman][] that adds two key bindings:
 * **alt-g**: Pops the latest entry from the stack and appends it to the
   command-line.
 
-[fisherman]: https://github.com/fisherman/fisherman
+[Fisher]: https://github.com/jorgebucaran/fisher
