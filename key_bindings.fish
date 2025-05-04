@@ -45,4 +45,6 @@ function __alt_q_prompt_function --on-event fish_prompt --description 'Pop the a
 end
 
 bind \eq __alt_q_push_line
+bind -M insert \eq __alt_q_push_line
 bind \eg __alt_g_get_line
+bind -M insert \eg __alt_g_get_line
